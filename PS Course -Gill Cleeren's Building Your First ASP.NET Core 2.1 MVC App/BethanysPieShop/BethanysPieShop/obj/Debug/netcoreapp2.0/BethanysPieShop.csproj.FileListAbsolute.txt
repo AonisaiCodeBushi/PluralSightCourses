@@ -1,0 +1,11 @@
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\bin\Debug\netcoreapp2.0\BethanysPieShop.deps.json
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\bin\Debug\netcoreapp2.0\BethanysPieShop.runtimeconfig.json
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\bin\Debug\netcoreapp2.0\BethanysPieShop.runtimeconfig.dev.json
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\bin\Debug\netcoreapp2.0\BethanysPieShop.dll
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\bin\Debug\netcoreapp2.0\BethanysPieShop.pdb
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp2.0\BethanysPieShop.csprojAssemblyReference.cache
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp2.0\BethanysPieShop.csproj.CoreCompileInputs.cache
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp2.0\BethanysPieShop.AssemblyInfoInputs.cache
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp2.0\BethanysPieShop.AssemblyInfo.cs
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp2.0\BethanysPieShop.dll
+C:\Users\DaxLl\Documents\Visual Studio 2017\Projects\Pluralsight - Gill Cleeren_Building Your First ASP.NET Core 2.1 MVC App\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp2.0\BethanysPieShop.pdb

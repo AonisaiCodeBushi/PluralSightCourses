@@ -1,0 +1,133 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <link href="styles/Layout.css" rel="stylesheet" />
+
+    <title>Joe's Coffee Store | Checkout</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <a class="header-logo" href="index.html"></a>
+            <img src="images/logo.png" alt="" />
+            <!--Use blank alt tags for screen readers to skip-->
+            <span class="header-name">Joe's Coffee Store</span>
+            <input type="search" class="search-box" placeholder="Search our store" />
+        </div>
+        <nav class="background-gradient" aria-label="site">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="blog.html">Blog</a></li>
+                <li><a class="nav-link" href="ourcoffees.html">Our Coffees</a></li>
+                <li><a class="nav-link" href="accessories.html">Accessories</a></li>
+                <li><a class="nav-link" href="gifts.html">Gifts</a></li>
+                <li><a class="nav-link" href="findus.html">Find Us</a></li>
+                <li><a class="nav-link" href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="welcome-image">
+        <img src="images/coffeeheader.jpg" />
+    </div>
+    <div id="coffee-of-the-month">
+        <img src="images/cotm.jpg" />
+    </div>
+
+    <section class="coffee-details">
+        <header class="block-header">
+            <span>Checkout</span>
+        </header>
+        <form id="main-form" action="#" method="post">
+            <fieldset class="box">
+                <legend>Your details</legend>
+                <div>
+                    <p>
+                        <label class="text-label" for="first-name-input">First Name</label>
+                        <input id="first-name-input" name="FirstName" type="text" required="required" maxlength="30"
+                            autofocus="autofocus" placeholder="Enter your first name" class="text-input" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="last-name-input">Last Name</label>
+                        <input id="last-name-input" name="LastName" type="text" required="required" placeholder="Enter your last name"
+                            class="text-input" size="10" maxlength="50" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="email-input">Email</label>
+                        <input id="email-input" name="Email" type="email" class="text-input" required="required"
+                            placeholder="Please enter your email address" />
+                    </p>
+
+                    <p>
+                        <label class="text-label" for="street-input">Street</label>
+                        <input id="street-input" name="Street" type="text" class="text-input" required="required"
+                            placeholder="Please enter your shipping street" />
+                    </p>
+
+                    <p>
+                        <label class="text-label" for="number-input">Number</label>
+                        <input id="number-input" name="Number" type="text" class="text-input" required="required"
+                            placeholder="Please enter your street number" />
+                    </p>
+
+                    <p>
+                        <label class="text-label" for="zip-input">ZIP code</label>
+                        <input id="zip-input" name="Zip" type="text" class="text-input" required="required" placeholder="Please enter your zip code" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="city-input">City</label>
+                        <input id="city-input" name="City" type="text" class="text-input" required="required"
+                            placeholder="Please enter your city" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="country-input">Country</label>
+                        <input id="country-input" name="Country" type="text" required="required" placeholder="Please enter your country (3 letter code)"
+                            pattern="[a-za-z]{3}" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="phone-input">Phone number</label>
+                        <input id="phone-input" name="PhoneNumber" type="text" class="text-input" required="required"
+                            placeholder="Please enter your phone number" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="blog-input">Blog</label>
+                        <input id="blog-input" name="Blog" type="url" class="text-input" placeholder="Please enter your blog address if you have one" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="comments-input">Comments</label>
+                        <input id="comments-input" name="PhoneNumber" type="text" class="text-input" placeholder="Please enter any extra remarks you have here." />
+                    </p>
+                </div>
+            </fieldset>
+            <br />
+            <fieldset class="box">
+                <legend>Your order</legend>
+                <div>
+                    <p>
+                        <label class="text-label" for="delivery-date-input">Requested delivery date</label>
+                        <input id="delivery-date-input" name="BirthDate" class="text-input" type="date" placeholder="Enter a date" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="color-input">Wrapping paper color</label>
+                        <input id="color-input" name="Color" type="color" class="text-input" placeholder="Select a color" />
+                    </p>
+                    <p>
+                        <label class="text-label" for="bow-input">How many bows on the package?</label>
+                        <input id="bow-input" name="Bows" type="number" class="text-input" required="required"
+                            placeholder="Enter a number" max="10" min="1" />
+                    </p>
+                </div>
+            </fieldset>
+            <input type="submit" class="submit-button" value="Place order" />
+
+        </form>
+    </section>
+</body>
+
+</html>

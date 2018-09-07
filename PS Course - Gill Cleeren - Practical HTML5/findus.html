@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <link href="styles/Layout.css" rel="stylesheet" />
+
+    <title>Joe's Coffee Store | Find Us</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <a class="header-logo" href="index.html"></a>
+            <img src="images/logo.png" alt="" />
+            <!--Use blank alt tags for screen readers to skip-->
+            <span class="header-name">Joe's Coffee Store</span>
+            <input type="search" class="search-box" placeholder="Search our store" />
+        </div>
+        <nav class="background-gradient" aria-label="site">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="blog.html">Blog</a></li>
+                <li><a class="nav-link" href="ourcoffees.html">Our Coffees</a></li>
+                <li><a class="nav-link" href="accessories.html">Accessories</a></li>
+                <li><a class="nav-link" href="gifts.html">Gifts</a></li>
+                <li><a class="nav-link" href="findus.html">Find Us</a></li>
+                <li><a class="nav-link" href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="welcome-image">
+        <img src="images/coffeeheader.jpg" />
+    </div>
+    <div id="coffee-of-the-month">
+        <img src="images/cotm.jpg" />
+    </div>
+
+    <section class="map-to-store">
+        <header class="block-header">
+            <span>Come to our real-life store!</span>
+        </header>
+
+        <div id="map"></div>
+
+        <div id="driving-directions"></div>
+
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", createDrivingDirectionsMap, false);
+    </script>
+
+</body>
+
+</html>
